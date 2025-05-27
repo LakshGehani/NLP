@@ -13,6 +13,6 @@ api_key = os.getenv("NEWS_API_KEY")
 if not api_key:
     raise ValueError("Missing NEWS_API_KEY in .env file")
 
-query = "AAPL"
+query = "PLTR"
 df = fetch_news(api_key=api_key, query=query)
 save_news_to_csv(df, query)

@@ -41,7 +41,6 @@ def fetch_news(api_key, query="AAPL", from_date=None, to_date=None, page_size=10
 
     return pd.DataFrame(all_articles)
 
-
 def save_news_to_csv(df, query):
     today = datetime.today().strftime("%Y-%m-%d")
     path = f"data/raw_news_{query}_{today}.csv"
