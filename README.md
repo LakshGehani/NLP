@@ -21,15 +21,8 @@ pip install -r requirements.txt
 ```
 ## 📈 Example Results
 
-### Sentiment Distribution for Apple
+### Sentiment Distributions
 
-![AAPL Sentiment](plots/aapl_sentiment_distribution.png)
-
-### Sentiment Distribution for Tesla
-
-![TSLA Sentiment](plots/TSLA_sentiment_distribution.png)
-
-### Sentiment Distribution for Palantir
-
-![PLTR Sentiment](plots/PLTR_sentiment_distribution.png)
-
+<img src="plots/aapl_sentiment_distribution.png" alt="AAPL Sentiment" width="400"/>
+<img src="plots/TSLA_sentiment_distribution.png" alt="TSLA Sentiment" width="400"/>
+<img src="plots/PLTR_sentiment_distribution.png" alt="PLTR Sentiment" width="400"/>
