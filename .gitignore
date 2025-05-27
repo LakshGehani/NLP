@@ -3,7 +3,3 @@ models
 data
 logs
 src/__pycache__
-data/raw_news_AAPL_2025-05-27.csv
-data/sentiment_news_AAPL_2025-05-27.csv
-models/lstm_sentiment.pt
-models/vocab.pkl
